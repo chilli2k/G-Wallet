@@ -1,0 +1,12 @@
+SELECT * FROM transaction where email='$email' and date="$date";
+SELECT * FROM transaction where email='suresh@gmail.com' and trans_date="01/28/2021";
+
+
+SELECT SUM(AMT) FROM TRANSACTION WHERE email='suresh@gmail.com' and trans_date="01/28/2021";
+
+SELECT COUNT(email) FROM TRANSACTION WHERE email='suresh@gmail.com';
+
+
+
+
+SELECT COUNT(email), SUM(amt),email FROM TRANSACTION WHERE email='suresh@gmail.com';

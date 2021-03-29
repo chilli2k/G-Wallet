@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#left_side{
+	margin-left: 40px;
+	background-color: #ceb6d9;
+	height: 60%;
+	width: 14%;
+	top: 30%;
+	position: fixed;
+	border-radius: 25px;
+	max-width: 500px;
+	padding-bottom:80px;
+	padding-top: 0px;
+	border: 2px solid ;
+	align-items: center;
+
+}
+
+.full-page{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(bts.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+}
+.navbar .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+.form-box
+{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	background: rgba(0, 0 ,0,0.3);
+	padding: 10px;
+	background-color: #fff;
+}
+
+.navbar
+{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 30px;
+	padding-top: 50px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul
+{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li
+{
+	display: inline-block;
+	margin-right: 70px;
+}
+nav ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+	border-radius: 20px;
+}
+nav ul li button
+{
+	font-size: 20px;
+	color: white;
+	outline: none;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+nav ul li button:hover
+{
+	color: aqua;
+}
+nav ul li a:hover
+{
+	color: #FFD700;
+}
+a
+{
+	text-decoration: none;
+	color: palevioletred;
+	font-size: 28px;
+}
